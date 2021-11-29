@@ -10,9 +10,9 @@
 5. Overview of Resources - Learn Platform, Stack Calendar
 6. Overview of Tools - VS Code
 7. [Folder Structure](./resources/folder.md)
-7. [What is the Web?](./resources/whatIsTheWeb.md)
-8. HTML
-9. Next time in Web Fun - Intro to CSS
+8. [What is the Web?](./resources/whatIsTheWeb.md)
+9. HTML
+10. Next time in Web Fun - Intro to CSS
 
 ## Resource Links:
 1. [Validator](https://validator.w3.org/)

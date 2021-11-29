@@ -2,15 +2,15 @@
 
 # Agenda:
 1. Quick (5-10 min max) Review of Session 1
-2. [Slide Deck](https://docs.google.com/presentation/d/1LZwnugenI0bYNHtFnx8Vir9dLy8joL-sTJWUdKyFMYU/edit#slide=id.p)
-3. CSS
-4. Next Week in Web Fun - More CSS Intro to JS
+2. CSS - Box Model
+3. Next Week in Web Fun - More CSS Intro to JS
 
 
 ## Resource Links:
 1. [Page layout](https://beedevservices.github.io/beedev-helper/fundamentals/house.html)
 2. [Box Model](https://css-tricks.com/the-css-box-model/)
 3. [Images](https://images.thehive-services.com/looneyToonsApi/)
+4. [Page layout Notes](https://hackmd.io/2gg1c11NSQCPNB-0lsNPzg)
 
 
 

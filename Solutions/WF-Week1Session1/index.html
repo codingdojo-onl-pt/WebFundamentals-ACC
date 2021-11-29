@@ -1,0 +1,133 @@
+<!-- Declairs the type of document html is the only on that does this -->
+<!DOCTYPE html>
+<!-- Sets the main language of the document -->
+<html lang="en">
+<head>
+    <!-- this is all hidden data to the general user but is important -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is how the tab in your browser gets its name  -->
+    <title>Welcome To Web Fundamentals</title>
+    <!-- Other things you may find or put in this section would be links to Js or CSS as well as the icon you sometimes see in the tab -->
+</head>
+<!-- Everything in this tag can be seen by the general user -->
+<body id='top'>
+    <!-- Here we start off with a header -->
+    <header> 
+        <!-- What is the importance of h1 tag -->
+        <h1>Welcome to Web Fundamentals</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#table">Tables</a>
+        </nav>
+    </header>
+    <!-- Now we are building the pages main content -->
+    <main>
+        <h2>The Main content</h2>
+        <!-- A div should only be used to separate 2 or more elements.  Typically 2 or more elements that are similar -->
+        <div>
+            <!-- Un ordered list.  Typically has a dish shape before each list item -->
+            <ul>
+                <li>List Item</li>
+                <li>List Item</li>
+            </ul>
+            <!-- Ordered list. Typically has numbers before each list item -->
+            <ol>
+                <li>Open VS Code</li>
+                <li>Create html document</li>
+                <li>Type ! and hit enter</li>
+            </ol>
+        </div>
+        <!-- Lets add an image -->
+        <!-- Be sure to add the alt tag for those screen readers -->
+        <img src="./images/Bear.jpg" alt="Bear">
+        <p>This is a picture of Bear a rescue dog</p>
+        <!-- A anchor tag - For links.  Be sure to include http:// or https:// if external to the website -->
+        <a href="https://beedev-themes.github.io/lorem-ipsum/index.html#navy">Lorem Ipsum Generator</a>
+        <!-- Now lets add some text from the generator as a paragraph -->
+        <p>Why do crabs never give to charity? Because they're shellfish. I'd like to make a shout out to sidewalks, for keeping me off the streets. What's red and smells like white paint? Red Paint. What did the red light say to the green light? Look awayyyyy I'm changing. What did the bra say to the hat? You go on a head, I gotta give these two a lift. How do you make holy water? You boil the hell out of it.</p>
+        <!-- Lets see how to build a form -->
+        <form action="">
+            <!-- The action section above we will fill in in later stacks -->
+            <div>
+                <label for="firstName">First Name: </label>
+                <input type="text" name="firstName">
+            </div>
+            <div>
+                <!-- Notice the for and name fields are the same this is important later -->
+                <label for="bio">Bio: </label>
+                <textarea name="bio" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="choice">Choices: </label>
+                <select name="choice">
+                    <option value="choice1">Choice 1</option>
+                    <option value="choice2">Choice 2</option>
+                </select>
+            </div>
+            <div>
+                <label for="chooseOne">Choose 1: </label>
+            <div>
+                <label for="chooseOne">choice a</label>
+                <input type="radio" name="chooseOne" value='1'>
+            </div>
+            <div>
+                <label for="chooseOne">choice b</label>
+                <input type="radio" name="chooseOne" value='2'>
+            </div>
+            </div>
+            <button>Submit Information</button>
+            <!-- Until we get to JS or full stack clicking this button won't do anything -->
+        </form>
+        <!-- creates a horizontal line that can be styled beyond its default shown here -->
+        <hr>
+        <!-- Even a lonely search bar needs to be in a form -->
+        <form action="">
+            <input type="text" name="search">
+            <button>Search</button>
+        </form>
+        <hr>
+        <!-- Tables 2 ways you can do tables - May not look like a table now but once we add CSS that fixes things -->
+        <table id='table'>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+            </tr>
+            <tr>
+                <td>Some info</td>
+                <td>Some info</td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <th>Heading 1</th>
+                <td>Information</td>
+            </tr>
+            <tr>
+                <th>Heading 2</th>
+                <td>More Information</td>
+            </tr>
+        </table>
+        <hr>
+        <a href="#top">Back to the top</a>
+        <div><img src="./images/Copper.jpg" alt="Copper">
+            <img src="./images/Lucy.jpg" alt="Lucy">
+            <img src="./images/Purrl.jpg" alt="Purrl">
+        </div>
+        <div>
+            <!-- Image external to the website -->
+            <img src="https://images.thehive-services.com/clipArt/bettaFish.png" alt="Betta Fish">
+            <!-- External image inside an anchor tag so the image is the link -->
+            <a href="https://login.codingdojo.com/dashboard#tracks_container"><img src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/5/original/cd-logo-blue-600x600.png" alt="Coding Dojo Website Logo"></a>
+        </div>
+    </main>
+    <hr><hr>
+    <!-- Here we can put any footer content we want -->
+    <footer>
+        <p>Made in Coding Dojo</p>
+    </footer>
+    <!-- A Js link can also be placed here - in fact this is the best place to put it -->
+</body>
+</html>

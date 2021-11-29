@@ -1,0 +1,49 @@
+/* When 1st starting out this is a great one to use to have every element surrounded by a border so you can see right where everything is.  Just comment it out when the page is done */
+/* Show what happens when you hover over the color name and if you click on the top bar that pops up or anywhere in the box.  Also the transparency option */
+* {
+    border: 1px dotted red;
+}
+/* Setting the background color and an image (the image is transparent) */
+body {
+    background-image: url(../resources/asfalt-light.png);
+    background-color: #5f9ea0;
+}
+/* Selecting Elements */
+header {
+    text-align: center;
+    color: white;
+    background-color: brown;
+}
+footer {
+    font-size: 3em;
+}
+/* Notice that the anchor tag is not effected by the color setting above, this is normal.  It will always need to be called due to it's built in styling */
+a {
+    color: white;
+    text-decoration: none;
+}
+/* Selecting by class */
+.form {
+    background-color: #fff8dc57;
+}
+/* Selecting by id - remember only 1 element can have that id name */
+/* Images should never be adjusted by width and height unless you know 100% that the image is perfectly square */
+/* Pictures are the best way to show the difference between padding and margin */
+#bugs {
+    width: 200px;
+    padding: 1em 2em; /* 1em will effect the top and bottom 2 right and left*/
+    background-color: darkgreen;
+    margin: 10px 30px 15px 0; /* 10 for the top 30 for the right 15 bottom and 0 left always in this order*/
+}
+
+/* Styling multiple elements all at once */
+table, th, td {
+    border: 1px solid black;
+}
+#lists, .list {
+    display: inline-block;
+    background-color: darkgray;
+    padding: 1em; /* 1em is = 16px Normal font size is 16px */
+    margin: 1em;
+}
+

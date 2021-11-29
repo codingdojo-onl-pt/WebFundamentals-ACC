@@ -1,0 +1,18 @@
+# Web Fundamentals Week 2 Session 2
+
+# Agenda:
+1. Quick (5-10 min max) Review of Session 1
+2. Intro to JS
+3. Next Week in Web Fun - Belt Exam prep and more JS
+
+
+## Resource Links:
+1. [JS Loops](https://beedevservices.github.io/beedev-helper/fundamentals/loops.html)
+2. [JS Conditionals](https://beedevservices.github.io/beedev-helper/fundamentals/conditionals.html)
+
+
+
+### JS Content to cover
+1. Data types, operators
+2. Functions
+3. DOM
