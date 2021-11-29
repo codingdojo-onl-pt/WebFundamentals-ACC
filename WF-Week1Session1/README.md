@@ -16,6 +16,7 @@
 
 ## Resource Links:
 1. [Validator](https://validator.w3.org/)
+2. [HTML Basics Notes](https://hackmd.io/jfSKROWmT9G5iOKf0AA0JA)
 
 ### HTML Content to cover
 1. Images - Importance of alt tag and how to properly link in a local image

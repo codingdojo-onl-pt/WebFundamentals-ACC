@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Week 2 CSS</title>
+</head>
+<body>
+    <header>
+        <!-- Without CSS these will naturally be in a column due to their inherit default CSS -->
+        <h1>Welcome to Flexbox</h1>
+        <nav>
+            <!-- By default the nav tag has styling to line the links in a row -->
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Lets add content</h1>
+        <!-- Line the p tags next to each other using flex -->
+        <div class="row">
+            <p>Bacon ipsum dolor amet porchetta drumstick shankle, buffalo pastrami pork shoulder. Biltong landjaeger pig andouille flank capicola. Biltong picanha strip steak swine pork chop fatback jowl kevin. Capicola jerky flank, burgdoggen prosciutto pork chop ham hock boudin spare ribs meatloaf. Beef ribs landjaeger kielbasa spare ribs tri-tip flank boudin biltong porchetta pastrami meatball pork chop chicken ham hock. Chuck sausage chicken sirloin salami pork loin pork chop strip steak. Buffalo shankle cupim, ham hock pancetta beef ribs jowl.</p>
+            <p>Venison bresaola sirloin flank ribeye meatloaf shankle pork belly capicola boudin short ribs brisket ham pork. Turkey chislic swine pork loin, landjaeger ham hock beef ribs corned beef kevin hamburger. Tri-tip shankle doner sausage swine, hamburger cow spare ribs. Tri-tip biltong doner, sausage boudin hamburger prosciutto pork loin kevin corned beef meatloaf fatback sirloin. Tri-tip fatback chuck sausage tail shankle ham hock filet mignon pork capicola pastrami doner.</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="./images/bugs.jpeg" alt="Bugs">
+                <img src="./images/marvin.jpg" alt="Marvin">
+            </div>
+            <div class="column alt">
+                <img src="./images/bugs.jpeg" alt="Bugs">
+                <img src="./images/marvin.jpg" alt="Marvin">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <script src='./js/script.js' defer></script> -->
+    <link rel='icon' type='image/png' href='./images/computerOctocat.png'>
+    <title>Octocat</title>
+</head>
+<body>
+    <header onclick='bgChange(this)'>
+        <h1>All About Octocats</h1>
+        <a href='https://myoctocat.com/' target="_blank">Make your own</a>
+        <a href='./ticTacToe.html'>Tic Tac Toe Game</a>
+    </header>
+    <div id='main'>
+        <div class='section'>
+            <div class='showHide'>
+                <img src="./images/altProfile.jpeg" alt="Profile Pic" id='hide'>
+                <img src="./images/profilePic.png" alt="Profile Pic" id='profilePic' onclick='hideProfile(this)'>
+            </div>
+            <p id='about'>What did the bra say to the hat? You go on a head, I gotta give these two a lift. Why do crabs never give to charity? Because they're shellfish. What did the red light say to the green light? Look awayyyyy I'm changing. What do you call a lost wolf? A Where-wolf. What's red and smells like white paint? Red Paint. How do you make hold water? You boil the hell out of it. I'd like to make a shout out to sidewalks, for keeping me off the streets.</p>
+        </div>
+        <hr>
+        <div class='section'>
+            <div class='cats'>
+                <img src="./images/bookWormOctocat.png" alt="Book Worm" id='bookWorm' onclick='octoClick()'>
+                <p>Book Worm Octocat</p>
+            </div>
+            <div class='cats'>
+                <img src="./images/computerOctocat.png" alt="Computer">
+                <p>Computer Octocat</p>
+            </div>
+            <div class='cats'>
+                <img src="./images/investigativeOctocat.png" alt="Investigative">
+                <p>Investigative Octocat</p>
+            </div>
+            <div class='cats'>
+                <img src="./images/madScientistOctocat.png" alt="mad Scientist">
+                <p>mad Scientist Octocat</p>
+            </div>
+            <div class='cats'>
+                <img src="./images/powerOctocat.png" alt="Power">
+                <p>power Octocat</p>
+            </div>
+            <div class='cats'>
+                <img src="./images/wizardOctocat.png" alt="Wizard">
+                <p>wizard Octocat</p>
+            </div>
+        </div>
+    </div>
+    <main>
+        <form name='details'>
+            <div>
+                <label for='name'>Your Name: </label>
+                <input type='text' name='name'>
+            </div>
+            <div>
+                <label for='location'>Your Location:</label>
+                <input type='text' name='location'>
+            </div>
+            <input value='Submit' type='button' onclick="showData()">
+        </form>
+        <h2>Grade Average Calculator</h2>
+        <h3>Please Enter Your Grade For Each Quarter</h3>
+        <table BORDER=2>
+            <tr>
+                <td>Type</td>
+                <td>Grade</td>
+            </tr>
+            <tr>
+                <td>1st Quarter</td>
+                <td><input type="text" id="qtr1" size=2 value=""></td>
+            </tr>
+            <tr>
+                <td>2nd Quarter</td>
+                <td><input type="text" id="qtr2" size=2 value=""></td>
+            </tr>
+            <tr>
+                <td>3rd Quarter</td>
+                <td><input type="text" id="qtr3" size=2 value=""></td>
+            </tr>
+            <tr>
+                <td>4th Quarter</td>
+                <td><input type="text" id="qtr4" size=2 value=""></td>
+            </tr>
+        </table>
+        <input type="button" value="Calculate Your Grade"
+                onclick="calculator()">
+        <hr>
+        <h4 id="outputh4"></h4>
+    </main>
+    <footer>
+        <p>Created for Coding Dojo</p>
+    </footer>
+    <script src='./js/script.js'></script>
+</body>
+</html>
