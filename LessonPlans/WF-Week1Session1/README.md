@@ -9,7 +9,7 @@
 4. 20 Min Rule - Real World (./resources/20MinRule-RealWorld.pdf)
 5. Overview of Resources - Learn Platform, Stack Calendar
 6. Overview of Tools - VS Code
-7. [Folder Structure](./resources/folder.md)
+7. [Folder Structure](./resources/folders.md)
 8. [What is the Web?](./resources/whatIsTheWeb.md)
 9. HTML
 10. Next time in Web Fun - Intro to CSS
