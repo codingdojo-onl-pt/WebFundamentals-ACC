@@ -1,0 +1,46 @@
+/* *{
+    border: 1px dotted red;
+} */
+.row, nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    max-width: 100px;
+}
+.round {
+    border-radius: 50%;
+}
+body {
+    background-color: beige;
+}
+header, footer {
+    background-color: skyblue;
+}
+.header, nav {
+    margin: 1em;
+    justify-content: space-around;
+    width: 95%;
+}
+.logos {
+    justify-content: space-around;
+    width: 30%;
+}
+.hide {
+    display: none;
+    /* background-color: purple; */
+}
+.product {
+    width: 150px;
+    background-color: white;
+    align-self: flex-start;
+    height: 300px;
+}
