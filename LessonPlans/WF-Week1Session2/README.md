@@ -3,7 +3,7 @@
 # Agenda:
 1. Quick (5-10 min max) Review of Session 1
 2. [Slide Deck](https://docs.google.com/presentation/d/1LZwnugenI0bYNHtFnx8Vir9dLy8joL-sTJWUdKyFMYU/edit#slide=id.p)
-3. CSS - Box Model
+3. CSS - Selectors and Box Model
 4. Next Week in Web Fun - More CSS Intro to JS
 
 
@@ -19,7 +19,10 @@
 1. Inline, Internal, VS External CSS - Which is best and which has more importance
 2. Selecting and styling an element - when to use (understanding it effects all elements)
 3. class vs id - When to use each and how to call them
-4. * Selector - good for setting something that applies to every element
-5. Box Model - padding, margin, border
-6. changing the background color vs img
-7. Lego concept
+4. `*` Selector - good for setting something that applies to every element. Eg:
+    - "Reseting" default styling
+    - adding outline to all elements for css debugging
+5. CSS Specificity
+6. Box Model - padding, margin, border
+7. changing the background color vs img
+8. Lego concept
